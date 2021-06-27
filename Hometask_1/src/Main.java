@@ -1,7 +1,9 @@
 
 public class Main {
     public static void main(String[] args) {
-        Controller userController = new Controller();
+        Model mainModel = new Model();
+        TerminalView mainView = new TerminalView();
+        Controller userController = new Controller(mainModel, mainView);
         userController.processText();
     }
 }

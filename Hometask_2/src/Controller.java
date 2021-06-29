@@ -50,12 +50,3 @@ public class Controller {
         terminal_UI.show_attempts(data_BD.get_User_tries());
     }
 }
-/**
- * if (data_BD.is_guess_number(user_input)) {
- * terminal_UI.show_message("Congratulations! You've guessed correctly!");
- * } else {
- * <p>
- * <p>
- * //terminal_UI.show_message("You are wronk! The number was " + data_BD.get_win_value());
- * }
- */
